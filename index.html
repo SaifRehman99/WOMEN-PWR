@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css"
         integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
     <!--Import Google Icon Font-->
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
@@ -26,16 +27,16 @@
 
 
     <header class="section-nav">
-            <!-- <div class="parallax-container">
+        <!-- <div class="parallax-container">
                     <div class="parallax"><img src="img/coaching-coders-coding-7374.jpg"></div>
                   </div> -->
         <div class="primary-overlay">
-            
+
             <div class="row">
                 <div class="navbar-fixed">
                     <nav class="transparent">
                         <div class="nav-wrapper">
-                            
+
                             <div class="col m3 s7">
                                 <a href="#" data-target="my-nav" class="sidenav-trigger">
                                     <i class="material-icons">menu</i>
@@ -127,8 +128,139 @@
         </div>
     </section>
 
+    <!-- News Section -->
 
-    
+    <section class="section news-section black-text  lighten-3">
+        <div class="container">
+            <h1 class="grey-text text-darken-3 center">
+                Latest News
+            </h1>
+
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card z-depth-5">
+                        <div class="card-image">
+                            <img src="img/img1.webp">
+                        </div>
+                        <div class="card-content">
+                            <h5>Female Robotics Team Wins Major Award</h5>
+                        </div>
+                        <div class="card-action">
+                            <div class="row">
+                                <div class="col m2 s2">
+                                    <i class="far fa-eye grey-text text-darken-2"> 0</i>
+                                </div>
+                                <div class="col m7 s5 ">
+                                    <span class="grey-text text-darken-2">Write a Comment</span>
+                                </div>
+                                <div class="col m3 s5">
+                                    <i class="far fa-heart right clr"></i>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card z-depth-5">
+                        <div class="card-image">
+                            <img src="img/img2.webp">
+                        </div>
+                        <div class="card-content">
+                            <h5>Women Overtake Men in College Degrees</h5>
+                        </div>
+                        <div class="card-action">
+                            <div class="row">
+                                <div class="col m2 s2">
+                                    <i class="far fa-eye grey-text text-darken-2"> 0</i>
+                                </div>
+                                <div class="col m7 s5 ">
+                                    <span class="grey-text text-darken-2">Write a Comment</span>
+                                </div>
+                                <div class="col m3 s5">
+                                    <i class="far fa-heart right clr"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 m4">
+                    <div class="card z-depth-5">
+                        <div class="card-image">
+                            <img src="img/img3.webp">
+                        </div>
+                        <div class="card-content">
+                            <h5>Countries with the Best Parental Leave Policies</h5>
+                        </div>
+                        <div class="card-action">
+                            <div class="row">
+                                <div class="col m2 s2">
+                                    <i class="far fa-eye grey-text text-darken-2"> 0</i>
+                                </div>
+                                <div class="col m7 s5 ">
+                                    <span class="grey-text text-darken-2">Write a Comment</span>
+                                </div>
+                                <div class="col m3 s5">
+                                    <i class="far fa-heart right clr"></i>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center">
+
+                <button class="btn pink waves-effect waves-light btn-large pulse">Read More</button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Quote Section -->
+    <section class="section quote-section white-text blue darken-4 center">
+        <div class="container">
+            <p class="flow-text quote">
+                <em>
+
+                    I am no bird; and no net ensnares me; I am a free
+                    human being with an independent will.
+
+                </em>
+            </p>
+            <p class="flow-text">
+                Charlotte Bronte, Jane Eyre
+
+
+            </p>
+        </div>
+    </section>
+    <div class="divider"></div>
+
+    <!-- Join Us -->
+
+<div class="section">
+    <div class="row">
+        <div class="col m5 s12 blue darken-4 center white-text hello">
+
+            <h1 class="join">Join Us</h1>
+            <p class="flow-text text1">
+                Empower Our
+                Women And Girls
+            </p>
+            <button class="btn pink waves-effect waves-light btn-large pulse">Donate Now</button>
+        </div>
+        <div class="col m7 s12">
+            <img src="img/active-activity-adult-1430116.jpg" class="responsive-img" alt="">
+
+        </div>
+    </div>
+</div>
+
+
+
 </body>
 
 <!-- Jquery loading before js -->
@@ -147,6 +279,18 @@
         $('.parallax').parallax();
 
 
+    });
+
+
+    // on scroll change navbar background color
+    $(window).scroll(function () {
+        if ($(document).scrollTop() > 700) {
+            $("nav").removeClass("transparent");
+            $("nav").addClass("grey darken-2");
+        } else {
+            $("nav").removeClass("grey darken-2");
+            $("nav").addClass("transparent");
+        }
     });
 </script>
 
