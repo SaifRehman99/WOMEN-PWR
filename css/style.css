@@ -5,12 +5,12 @@ body{
     background: url(/img/american-best-friends-blond-hair-1574650.jpg);
     background-size: cover;
     background-position: center;
-    height: 75vh;
+    height: 100vh;
     min-height: 500px;
     color: #fff;
     position: relative;
-}
-
+} 
+     
 .primary-overlay {
     background: rgb(0, 0, 0, 0.3);
     position: absolute;
@@ -39,11 +39,6 @@ body{
     font-size: 80px;
     /* margin-top: 250px; */
     /* bottom: 100%; */
-}
-
-/* Banner */
-.banner-section .inner{
-    padding: 50px 0;
 }
 
 @media(max-width:700px){
