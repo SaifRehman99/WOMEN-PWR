@@ -93,6 +93,10 @@ body {
 .hello{
     padding: 100px !important;
 }
+
+.footer{
+    padding: 20px;
+}
 @media(max-width:700px) {
     .showcase-section h1 {
         font-weight: 400;
