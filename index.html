@@ -5,25 +5,125 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css"
         integrity="sha384-Mmxa0mLqhmOeaE8vgOSbKacftZcsNYDjQzuCOm6D02luYSzBG8vpaOykv9lFQ51Y" crossorigin="anonymous">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/style.css">
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Document</title>
+    <title>Women PWR</title>
 </head>
+
+<body>
+    <header class="section-nav">
+        <div class="primary-overlay">
+            <div class="fixed-nav">
+                <nav class="transparent">
+                    <div class="nav-wrapper">
+                        <a href=""><i class="lg fas fa-female fa-2x"></i></a>
+                        <a href="#" class="brand-logo ">WOMEN PWR</a>
+                        <a href="#" data-target="my-nav" class="sidenav-trigger">
+                            <i class="material-icons">menu</i>
+                        </a>
+                        <ul class="right list hide-on-med-and-down list">
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#Support Us">Support Us</a></li>
+                            <li><a href="#news">News</a></li>
+                            <li><a href="#events">Events</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <!-- <li class="end">
+                                <a href="#" class="pink lighten-2">Donate</a>
+                                
+                            </li> -->
+
+                            <span class="btn btn-large pink lighten-2 ">
+                                Donate
+
+                            </span>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+
+            <!-- Showcase Area -->
+            <div class="showcase-section white-text">
+                <div class="container">
+                    <div class="row">
+                        <div class="col m8 offset-m2">
+                            <h1>
+                                Empowering Women
+                                & Girls Worldwide
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </header>
+    <ul id="my-nav" class="sidenav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#Support Us">Support Us</a></li>
+        <li><a href="#news">News</a></li>
+        <li><a href="#events">Events</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+
+    <!-- Banner 2 -->
+    
+    <section class="banner-section white-text center">
+        <div class="row">
+            <div class="col m4 pink inner">
+                <h3>Our Mission</h3>
+                <p class="flow-text">
+                    Our Goal, Vision & Commitment
+                </p>
+            </div>
+            <div class="col m4 blue inner lighten-2">
+                    <h3>Our Mission</h3>
+                    <p class="flow-text">
+                        Our Goal, Vision & Commitment
+                    </p>
+                </div>
+                <div class="col m4 purple inner">
+                        <h3>Our Mission</h3>
+                        <p class="flow-text">
+                            Our Goal, Vision & Commitment
+                        </p>
+                    </div>
+        </div>
+    </section>
+    <!-- <div style="height:1000px"></div> -->
+</body>
+
+<!-- Jquery loading before js -->
 <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous"></script>
 <!--JavaScript at end of body for optimized loading-->
 <script type="text/javascript" src="js/materialize.min.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
 
-<body>
+<script>
+    $(document).ready(function () {
 
-</body>
+        // sidenav
+        $('.sidenav').sidenav();
+
+    });
+</script>
 
 </html>
