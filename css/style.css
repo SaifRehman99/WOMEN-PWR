@@ -172,11 +172,34 @@ small{
 }
 
 
-#animate h1{
+#animate h1:hover{
+    line-height: 2em;
+    position: relative;
     animation: head;
     animation-duration: 2s;
     /* //stays the animations */
     animation-fill-mode: forwards;
+}
+
+@keyframes head {
+    0% {left:-200px;}
+    100%{left: 200px;}
+}
+
+#para{
+    position: relative;
+    animation-name: paragraph;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes paragraph {
+
+    /* starts here */
+    0%{left: -1000px;}
+
+    /* Stops here */
+    100%{left: 0px;}
 }
 
 
