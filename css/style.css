@@ -45,7 +45,7 @@ body {
 }
 
 .section-nav .donate {
-    padding: 0 34px;
+    padding: 0 25px;
 }
 
 /* Showcase area */
@@ -66,7 +66,7 @@ body {
 .h1 {
     font: bold;
     font-weight: 700;
-    font-size: 80px;
+    font-size: 60px;
 }
 
 .news-section h5 {
@@ -121,7 +121,7 @@ sub{
 .event-section .inner-text{
     font-size: 40px;
     font-weight: 100;
-    line-height: 100px;
+    line-height: 70px;
 
 }
 small{
@@ -136,7 +136,24 @@ small{
 
 .event-section h1:hover{
     color: #e84a43
-}\
+}
+
+/* css animation */
+
+#animate h1:hover{
+    line-height: 2em;
+    position: relative;
+    animation: head;
+    animation-duration: 2s;
+    /* //stays the animations */
+    animation-fill-mode: forwards;
+}
+
+@keyframes head {
+    0% {left:-600px;}
+    100%{left: 200px;}
+}
+
 /* contact */
 
 .section-contact{
@@ -172,35 +189,6 @@ small{
 }
 
 
-#animate h1:hover{
-    line-height: 2em;
-    position: relative;
-    animation: head;
-    animation-duration: 2s;
-    /* //stays the animations */
-    animation-fill-mode: forwards;
-}
-
-@keyframes head {
-    0% {left:-200px;}
-    100%{left: 200px;}
-}
-
-#para{
-    position: relative;
-    animation-name: paragraph;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-}
-
-@keyframes paragraph {
-
-    /* starts here */
-    0%{left: -1000px;}
-
-    /* Stops here */
-    100%{left: 0px;}
-}
 
 
 /* some media queries */
