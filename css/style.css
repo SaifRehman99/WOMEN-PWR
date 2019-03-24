@@ -2,9 +2,8 @@ body {
   margin-bottom: 0;
   overflow-x: hidden;
 }
-.star{
+.star {
   font-size: 30px !important;
-
 }
 
 .section-nav {
@@ -255,7 +254,7 @@ small {
   }
 
   .section-nav {
-    height:  50vh;
+    height: 50vh;
     min-height: 100%;
     color: #fff;
     position: relative;
@@ -290,7 +289,6 @@ small {
     font-size: 25px;
   }
 
-
   .section-contact .down {
     padding-bottom: 90px;
   }
@@ -303,9 +301,25 @@ small {
   .icon-bar {
     display: none;
   }
-  .blogo{
+  .blogo {
     font-size: 15px !important;
     text-align: left;
   }
 }
-
+@media (max-width: 700px) {
+  .section-nav {
+    height: 50vh;
+    min-height: 100%;
+    color: #fff;
+    position: relative;
+    max-width: 100%;
+    width: 700px;
+    background-size: contain !important;
+    /* height: 100%; */
+  }
+  .showcase-section h1 {
+    font-weight: 400;
+    font-size: 40px;
+    text-align: center;
+  }
+}
