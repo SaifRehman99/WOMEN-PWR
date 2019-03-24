@@ -1,9 +1,16 @@
 body {
   margin-bottom: 0;
+  overflow-x: hidden;
+}
+.star{
+  font-size: 30px !important;
+
 }
 
 .section-nav {
   background: url(/img/american-best-friends-blond-hair-1574650.jpg);
+  background-repeat: no-repeat;
+  background-size: center;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -248,9 +255,13 @@ small {
   }
 
   .section-nav {
-    height: 100%;
-    width: auto;
-    min-height: 400px;
+    height:  50vh;
+    min-height: 100%;
+    color: #fff;
+    position: relative;
+    max-width: 100%;
+    background-size: contain !important;
+    /* height: 100%; */
   }
 
   .quote-section .quote {
@@ -279,8 +290,6 @@ small {
     font-size: 25px;
   }
 
-  .event-section .row {
-  }
 
   .section-contact .down {
     padding-bottom: 90px;
@@ -294,4 +303,9 @@ small {
   .icon-bar {
     display: none;
   }
+  .blogo{
+    font-size: 15px !important;
+    text-align: left;
+  }
 }
+
